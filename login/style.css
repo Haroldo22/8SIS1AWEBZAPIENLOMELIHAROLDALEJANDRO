@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+input{
+    outline: 0;
+    background-color: aliceblue;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14 px;
+
+}
+
+
+.boton{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: aquamarine;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: rgb(131, 77, 6);
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(165, 206, 243);
+    max-width: 360px;
+    padding: 45px;
+    text-align: center;
+
+
+
+}
