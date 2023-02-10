@@ -86,8 +86,6 @@ function promedioEstudiantes(){
 
     var porcentajeF = 100 - porcentajeM;
 
-    alert(a +"     ");
-
     alert("Hay " + porcentajeM + "% estudiantes masculinos y " + porcentajeF + "% estudiantes femeninos");
 
     
