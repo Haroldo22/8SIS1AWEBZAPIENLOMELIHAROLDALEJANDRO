@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>4) Calcular la utilidad que un trabajador recibe en el reparto anual de utilidades si este se le asigna
+            como un porcentaje de su salario mensual que depende de su antiguedad en la empresa de acuerdo con la
+            siguiente tabla
+                Tiempo:
+                Menos de un año					Utilidad
+                1 año o mas y menos de 2 años			5% del salario
+                2 años o mas y menos de 5 años		7% del salario
+                5 años o mas y menos de 10 años		15% del salario
+                10 años o mas					20% del salario</h1>
+
+    </div>
+
+    <div>
+
+        <h1>Calculadora de utilidades de la empresa</h1>
+
+        <label>La utilidad recibida será en base a su salario y antiguedad en la empresa. Tome como referencia la siguiente tabla
+                1 año o mas y menos de 2 años		5% del salario
+                2 años o mas y menos de 5 años		7% del salario
+                5 años o mas y menos de 10 años		15% del salario
+                10 años o mas					    20% del salario
+        </label>
+
+        <label>Ingrese su antiguedad laboral en meses: </label>
+        <input type="number" id="meses">
+
+        <label>Ingrese su salario mensual: </label>
+        <input type="number" id="salario">
+
+        <button onclick="repartoUtilidades()">Calcular</button>
+
+    </div>
+
+
+    <script src="funciones.js"></script>
+</body>
+</html>
