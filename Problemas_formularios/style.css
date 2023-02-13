@@ -30,3 +30,28 @@ body{
     color:rgba(43, 236, 236, 0.719);
 
 }
+
+
+.container{
+    background: rgb(154, 109, 214);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    margin: auto;
+    color:rgba(43, 236, 236, 0.719);
+
+
+
+
+}
+
+.problema-container{
+    background: rgb(154, 109, 214);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70%;
+    margin: auto;
+    color:rgba(43, 236, 236, 0.719);
+
+
+
+
+}
